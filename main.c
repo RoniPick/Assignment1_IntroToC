@@ -20,28 +20,28 @@ int main() {
     printf("The Armstrong numbers are:");
     for(i = start; i <= end; i++ ){
         if(isArmstrong(i) == TRUE){
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     printf("\n");
     printf("The Palindromes numbers are:");
     for(i = start; i <= end; i++ ){
         if(isPalindrome(i) == TRUE){
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     printf("\n");
     printf("The Prime numbers are:");
     for(i = start; i <= end; i++ ){
         if(isPrime(i) == TRUE){
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     printf("\n");
     printf("The Strong numbers are:");
     for(i = start; i <= end; i++ ){
         if(isStrong(i) == TRUE){
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     printf("\n");
