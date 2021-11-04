@@ -52,11 +52,11 @@ int isArmstrong(int n){
 
 int isPalindrome(int n){
     int num = n, sum = 0;
-    while (n >= 0){
+    while (n > 0){
         int reminder = n % 10;
         n = n / 10;
         sum = sum * 10 + reminder;
     }
-    if( sum == num){return TRUE;}
+    if(sum == num){return TRUE;}
     else{return FALSE;}
 }
